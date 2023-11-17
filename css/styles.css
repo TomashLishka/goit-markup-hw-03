@@ -207,6 +207,9 @@ nav .menu{
     background-color: #ffffff;
     display: flex;
     gap: 24px;
+    padding-left: 0; 
+    margin-top: 0; 
+    margin-bottom: 0;
 }
 .third-section-li{
     background-color: #ffffff;
@@ -242,6 +245,9 @@ footer .accent{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    padding-left: 0; 
+    margin-top: 0; 
+    margin-bottom: 0;
 }
 .fourth-section-li{
     width: calc((100% - 48px) / 3);
