@@ -125,17 +125,15 @@ nav .menu{
 .button:focus{
     background-color: #404BBF;
 }
-
-.our-advantages{
-    color: #2e2f42;
-    display: none;
-}
 .visually-hidden {
     position: fixed;
     transform: scale(0);
-  }
-.second-section-container{
+}
+.second-section{
     padding: 120px 0;
+}
+.second-section-container{
+
 }
 .second-section-ul{
     display: flex;
