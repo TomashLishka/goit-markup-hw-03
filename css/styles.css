@@ -128,8 +128,14 @@ nav .menu{
 
 .our-advantages{
     color: #2e2f42;
-    padding: 120px 0;
     display: none;
+}
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+  }
+.second-section-container{
+    padding: 120px 0;
 }
 .second-section-ul{
     display: flex;
