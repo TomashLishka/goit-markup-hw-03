@@ -140,24 +140,24 @@ nav .menu{
 .second-section{
     padding: 120px 0;
 }
-.second-section-container{
-
-}
 .second-section-ul{
     display: flex;
     gap: 24px;
+    padding-left: 0; 
+    margin-top: 0; 
+    margin-bottom: 0;
 }
 .second-section-li{
     width: calc((100% - 72px) / 4);
+    display: flex;
+    gap: 8px;
 }
 .third-head{
     color: #2e2f42;
     margin-bottom: 8px;
-    width: calc((100% - 72px) / 4);
 }
 .section-paragraph{
     font-size: 16px;
-    width: calc((100% - 72px) / 4);
 }
 .our-portfolio{
     color: var(--NAVY-BLUE, #2E2F42);
