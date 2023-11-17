@@ -139,13 +139,15 @@ nav .menu{
     display: flex;
     gap: 24px;
 }
+.second-section-li{
+    width: calc((100% - 72px) / 4);
+}
 .third-head{
     color: #2e2f42;
-    width: calc((100% - 72px) / 4);
+    margin-bottom: 8px;
 }
 .section-paragraph{
     font-size: 16px;
-    margin-bottom: 8px;
 }
 .our-portfolio{
     color: var(--NAVY-BLUE, #2E2F42);
