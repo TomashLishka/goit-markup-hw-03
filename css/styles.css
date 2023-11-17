@@ -50,7 +50,14 @@ ul{
     width: 1158px;
 }
 .head{
-    border-bottom: #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+}
+.head-container{
+    display: flex;
+}
+.head-navigation{
+    display: flex;
+    align-items: center;
 }
 .head .head-navigation .head-navigation-logo{
     color: #4d5ae5;
@@ -61,6 +68,7 @@ ul{
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 76px;
 }
 nav .accent{
     color: #2e2f42;
@@ -69,6 +77,8 @@ nav .menu{
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: 'Roboto';
     list-style-type: none;
+    display: flex;
+    gap: 40px;
 }
 
 .head .head-navigation .head-navigation-link{
@@ -78,6 +88,7 @@ nav .menu{
     line-height: 150%;
     letter-spacing: 0.32px;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .head .head-navigation .head-navigation-link:hover{
@@ -88,7 +99,10 @@ nav .menu{
     color: #404bbf;
 }
 
-
+.head-info-ul{
+    display: flex;
+    gap: 40px;
+}
 .button{
     background-color: #4d5ae5;
     color: #ffffff;
