@@ -48,16 +48,13 @@ ul{
 }
 .container{
     width: 1158px;
-    
+    padding: 0 15px;
 }
 .head{
     border-bottom: 1px solid #E7E9FC;
 }
 .head-container{
     display: flex;
-}
-.head-container-two{
-    padding: 0 15px;
 }
 .head-navigation{
     display: flex;
