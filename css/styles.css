@@ -194,21 +194,32 @@ nav .menu{
     text-align: center;
     max-width: 496px;
 }
-.light-background{
+.third-section{
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
-.our-team{
+.third-section-second-header{
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
+    margin-bottom: 72px;
 }
 
-.personal-li{
-    background-color: #ffffff;
-}
-.our-personal{
+.third-section-ul{
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     background-color: #ffffff;
+    display: flex;
+    gap: 24px;
+}
+.third-section-li{
+    background-color: #ffffff;
+    width: calc((100% - 72px) / 4);
+    display: flex;
+    gap: 8px;
+    border-radius: 0px 0px 4px 4px;
+}
+.third-section-container{
+    padding: 32px 0;
 }
 .foot-logo{
     color: #4d5ae5;
@@ -228,4 +239,9 @@ footer .accent{
 }
 .third-head{
     color: #2E2F42;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.section-paragraph{
+    text-align: center;
 }
