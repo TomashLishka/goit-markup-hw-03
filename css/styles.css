@@ -41,13 +41,15 @@ h3{
 }
 p{
     color: var(--SLATE, #434455);
-    text-align: center;
 }
 ul{
     list-style: none;
+    padding-left: 0;
 }
 .container{
     width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 .head{
     border-bottom: 1px solid #E7E9FC;
@@ -60,6 +62,7 @@ ul{
 .head-navigation{
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 .head .head-navigation .head-navigation-logo{
     color: #4d5ae5;
@@ -71,6 +74,7 @@ ul{
     text-transform: uppercase;
     text-decoration: none;
     margin-right: 76px;
+    display: block;
 }
 nav .accent{
     color: #2e2f42;
@@ -105,6 +109,30 @@ nav .menu{
     display: flex;
     gap: 40px;
 }
+.head .head-info .head-info-li{
+    list-style-type: none;
+}
+.head .head-info .head-info-link{
+    color: var(--SLATE, #434455);
+    text-decoration: none;
+}
+.head-info{
+    font-style: normal;
+}
+.head .head-info .head-info-link:hover{
+    color: #404bbf;
+}
+.head .head-info .head-info-link:focus{
+    color: #404bbf;
+}
+.first-header{
+    color: var(--WHITE, #ffffff);
+    text-align: center;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
 .button{
     background-color: #4d5ae5;
     color: #ffffff;
@@ -118,12 +146,25 @@ nav .menu{
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button:hover{
     background-color: #404BBF;
 }
 .button:focus{
     background-color: #404BBF;
+}
+.portfolio-paragraph{
+    color: var(--SLATE, #434455);
+}
+
+.team-photo{
+    background-color: #ffffff;
+}
+.first-section{
+    background: var(--NAVY-BLUE, #2E2F42);
+    padding: 188px 0;
 }
 .visually-hidden {
     position: absolute;
@@ -149,47 +190,18 @@ nav .menu{
 }
 .second-section-li{
     width: calc((100% - 72px) / 4);
-    display: flex;
     gap: 8px;
+}
+.ss-third-head{
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+.ss-paragraph{
+    font-size: 16px;
 }
 .third-head{
     color: #2e2f42;
     margin-bottom: 8px;
-}
-.section-paragraph{
-    font-size: 16px;
-}
-.portfolio-paragraph{
-    color: var(--SLATE, #434455);
-}
-
-.team-photo{
-    background-color: #ffffff;
-}
-.head .head-info .head-info-li{
-    list-style-type: none;
-}
-.head .head-info .head-info-link{
-    color: var(--SLATE, #434455);
-    text-decoration: none;
-}
-.head-info{
-    font-style: normal;
-}
-.head .head-info .head-info-link:hover{
-    color: #404bbf;
-}
-.head .head-info .head-info-link:focus{
-    color: #404bbf;
-}
-.first-section{
-    background: var(--NAVY-BLUE, #2E2F42);
-    padding: 188px 0;
-}
-.first-header{
-    color: var(--WHITE, #ffffff);
-    text-align: center;
-    max-width: 496px;
 }
 .third-section{
     background-color: #F4F4FD;
@@ -204,7 +216,6 @@ nav .menu{
 .third-section-ul{
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
-    background-color: #ffffff;
     display: flex;
     gap: 24px;
     padding-left: 0; 
@@ -214,23 +225,11 @@ nav .menu{
 .third-section-li{
     background-color: #ffffff;
     width: calc((100% - 72px) / 4);
-    display: flex;
     gap: 32px;
     border-radius: 0px 0px 4px 4px;
 }
 .third-section-container{
     padding: 32px 0;
-}
-footer .accent{
-    color: #f4f4fd;
-}
-.third-head{
-    color: #2E2F42;
-    text-align: center;
-    margin-bottom: 8px;
-}
-.section-paragraph{
-    text-align: center;
 }
 .fourth-section{
     padding-top: 120px;
@@ -251,7 +250,6 @@ footer .accent{
 }
 .fourth-section-li{
     width: calc((100% - 48px) / 3);
-    display: flex;
     gap: 32px;
     flex-wrap: wrap;
 }
@@ -259,7 +257,6 @@ footer .accent{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 .foot{
     padding: 100px 0;
@@ -279,4 +276,7 @@ footer .accent{
 .foot-paragraph{
     color: var(--CLOUD, #F4F4FD);
     max-width: 264px;
+}
+footer .accent{
+    color: #f4f4fd;
 }
